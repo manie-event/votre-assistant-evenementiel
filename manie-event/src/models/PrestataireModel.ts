@@ -3,5 +3,5 @@ export interface PrestataireModel {
   photos: string[],
   description: string,
   prestations: string[]
-  disponibilites: string[]
+  disponibilites: string[] // comment gérer le typage d'un range de disponibilité ?
 }

@@ -1,13 +1,15 @@
+import type { ProjectModel } from "./ProjectModel";
+
 export interface UserModel {
-  id: number,
+  id: string,
   photo?: string,
   nomComplet: string,
   adresse: string,
   codePostal: string,
   ville: string,
   pays: string,
-  dateNaissance: Date,
+  dateNaissance: string,
   email: string,
   telephoneNumber: string,
-  projet: Project[]
+  projet: ProjectModel[]
 }
