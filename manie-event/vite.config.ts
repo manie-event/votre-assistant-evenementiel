@@ -1,6 +1,5 @@
 import vue from '@vitejs/plugin-vue';
 import path from 'path';
-import process from 'process';
 import { defineConfig } from 'vite';
 
 

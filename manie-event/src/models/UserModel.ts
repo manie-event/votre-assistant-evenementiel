@@ -11,5 +11,7 @@ export interface UserModel {
   dateNaissance: string,
   email: string,
   telephoneNumber: string,
+  password: string,
+  messages: string[],
   projet: ProjectModel[]
 }
